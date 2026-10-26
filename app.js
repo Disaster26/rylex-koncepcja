@@ -207,6 +207,8 @@
     location.href = url;
   });
 
+  $('#formZap').addEventListener('input', function () { $('#formBlad').hidden = true; });
+
   /* ---------- menu, pasek dolny ---------- */
   var burger = $('#burger'), menu = $('#menu');
   burger.addEventListener('click', function () {
